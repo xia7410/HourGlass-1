@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:paddingTop="60dp"
+    android:paddingBottom="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/deletedata_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:textSize="30dp"
+		android:text="从云图中删除数据">
+    </TextView>
+    <TextView
+        android:id="@+id/delete_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="输入要删除的ID">
+    </TextView>
+    <EditText
+        android:id="@+id/delete_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:id="@+id/deletedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/delete4"
+        android:layout_marginTop="20dp"	
+        android:textSize="20sp"
+        android:text="删除">
+    </Button>
+
+</LinearLayout>
